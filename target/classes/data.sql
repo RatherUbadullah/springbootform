@@ -1,0 +1,1 @@
+insert into User values(100,'1997-11-10','rather@gmail.com','Male','true','Rather','Hello','1234rt','Reporting Analyst')

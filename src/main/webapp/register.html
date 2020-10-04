@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>User Registration</title>
+<link rel = "stylesheet" href="css/register.css" >
+</head>
+<body>
+<div class="frm">
+  <fieldset>
+    <legend>User Registration</legend>
+    <form action="addUser">
+        <label>User Id:</label>
+        <input type="number" name ="id"/> <br/>
+        <label>Full Name:</label>
+        <input type="text" name="name"/><br/>
+        
+        <label>E-mail:</label>
+        <input type="text" name="email"/><br/>
+       
+ 
+        <label>Password:</label>
+        <input type="password" name="password"/><br/>
+        
+        
+ 
+        <label>Birthday (yyyy-mm-dd):</label>
+        <input type="text" name="birthday"/><br/>
+        
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" />Male
+        <input type="radio" name="gender" value="Female" />Female
+       <br/>
+ 
+        <label>Profession:</label>
+        <select name="profession">
+            <option value="Reporting Analyst"> Reporting Analyst </option>
+            <option value="Business Analyst"> Business Analyst </option>
+            <option value="Senior Analyst"> Senior Analyst </option>
+            <option value="Manager">  Manager</option>
+            
+        </select>
+        <br/>
+ 
+        <label>Married?</label>
+        Yes<input type="checkbox" name="married" /><br/>
+ 
+        <label>Note:</label>
+        <textarea rows="3" cols="25" name="note"></textarea>
+        <br/>
+ 			<div class="btns">
+        <button type="submit">Register</button> 
+         <button type="reset">Reset</button>
+         
+         </div>
+            
+    </form>
+    </fieldset>
+</div>
+</body>
+</html>

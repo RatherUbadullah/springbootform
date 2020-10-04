@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+    span {
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+    }
+    .success{
+    margin-top:15%;
+    }
+    
+     button {
+        background-color:blue;
+        color:white;
+        padding: 5px;
+        margin: 10px;
+    }

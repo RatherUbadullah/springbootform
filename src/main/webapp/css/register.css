@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+    label {
+        display: inline-block;
+        width: 200px;
+        margin: 5px;
+        text-align: left;
+    }
+    input[type=text], input[type=password], select {
+        display: inline-block;
+        width: 200px;
+        height:19px;
+        margin-bottom:1%;
+    }
+    body{
+    background-color: darkgreen;
+    }
+      
+    button {
+        background-color:blue;
+        color:white;
+        padding: 5px;
+        margin: 10px;
+    }
+   
+    
+    .btns{
+    margin-top:2%;
+    margin-left:32%;
+    }
+    
+    .frm{
+    margin-left:20%;
+    margin-top:3%;
+    margin-right:20%;
+    border-top-color:green;
+    color:white;
+    }
+    
+    legend,label{
+    color:white;
+    font-weight:bold}
+    form{
+    margin-top:4%;
+    margin-left:7%;
+    margin-bottom:7%;
+    }
+    
+    option,select{
+    font-weight:bold;
+    }

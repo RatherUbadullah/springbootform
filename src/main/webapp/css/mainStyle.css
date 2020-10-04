@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+.indexStyle{
+
+margin-top:15%;
+margin-left:20%;
+margin-right:20%;
+}
+
+h1{
+border-style:solid;
+box-shadow:5px 5px 5px brown;
+}
+
+a{
+font-size:22px;
+font-weight:bold;
+
+
+}
+
+a:hover{
+background-color:green;
+color:white;
+}
+
+   
+    button {
+        background-color:blue;
+        color:white;
+        padding: 5px;
+        margin: 10px;
+    }
+   
+    
+    
